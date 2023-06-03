@@ -1,0 +1,36 @@
+/* index page start */
+
+#slider
+{
+    height:100%;
+    width:100%;
+    background-image:url('images/img1.jfif');
+    animation-name:sliders;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+@keyframes sliders
+{
+0%
+{
+    background-image:url('images/img1.jfif');
+}
+25%
+{
+    background-image:url('images/img2.jfif');
+}
+50%
+{
+    background-image:url('images/img3.jfif');
+}
+75%
+{
+    background-image:url('images/img4.jfif');
+}
+100%
+{
+    background-image:url('images/img5.jfif');
+}
+}
+
+/* index page end */
